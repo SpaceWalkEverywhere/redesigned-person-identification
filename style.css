@@ -1,0 +1,49 @@
+  .head
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    font-size: 25px;
+  }
+  .head_div
+  {
+    padding: 10px;
+    float: none;
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+  }
+  .head_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  #res-obj{
+    white-space: pre-line;
+  }
+ .crf{
+   bottom: 0;
+   position:fixed;
+   background-color: aqua;
+   color: black;
+   width: 100%;
+   text-align: center;
+ }
+ canvas{
+   margin-top: 280px;
+   border: 5px solid black ;
+   border-radius: 25px;
+   animation-name:VIBGYOR ;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+ }
+ @keyframes VIBGYOR{
+     from{box-shadow: 1px 1px 38px lightskyblue;}
+     to{box-shadow: 1px 1px 38px purple;}
+ }
+ 
